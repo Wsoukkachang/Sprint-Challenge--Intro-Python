@@ -31,13 +31,11 @@ class Car(GroundVehicle):
 class Motorcycle(GroundVehicle):
     pass
 
-# Base class - FlightVehicle
-class FlightVehicle:
+class FlightVehicle(Vehicle):
     pass
 
 class Airplane(FlightVehicle):
     pass
 
-# Base class - Starship
-class Starship:
+class Starship(FlightVehicle):
     pass
